@@ -1,0 +1,2830 @@
+body {
+  background-color: white;
+}
+#result_field {
+  font-size: 64px !important;
+}
+
+/* FONT */
+.dap {
+  font-family: "Licorice", cursive;
+}
+.te {
+  font-family: "Island Moments", cursive;
+}
+.fafa {
+  font-family: "Island Moments", cursive;
+}
+.fLuckiestGuy {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.fMouse {
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+.fSpicyRice {
+  font-family: "Spicy Rice", cursive;
+}
+@font-face {
+  font-family: "lavander";
+  src: url(./font/Lavanderia\ Sturdy.otf);
+}
+.fLavanderia {
+  font-family: "lavander";
+}
+@font-face {
+  font-family: "milky";
+  src: url(./font/Milky\ Matcha.otf);
+}
+.fMilky {
+  font-family: "milky";
+}
+@font-face {
+  font-family: "longreach";
+  src: url(./font/DK\ Longreach.otf);
+}
+.fReachlong {
+  font-family: "longreach";
+}
+@font-face {
+  font-family: "juicy";
+  src: url(./font/Orange\ Juice.otf);
+}
+.fJuicyOrange {
+  font-family: "juicy";
+}
+@font-face {
+  font-family: "missy";
+  src: url(./font/Missy.otf);
+}
+.fMisses {
+  font-family: "missy";
+}
+@font-face {
+  font-family: "palace";
+  src: url(./font/Palace.ttf);
+}
+
+.fKingPalace {
+  font-family: "palace";
+}
+@font-face {
+  font-family: "creamysunset";
+  src: url(./font/Creamy\ Sunset.ttf);
+}
+.fCreamySunday {
+  font-family: "creamysunset";
+}
+@font-face {
+  font-family: "dashing";
+  src: url(./font/Dashing\ Unicorn.ttf);
+}
+.fDancingUnicorn {
+  font-family: "dashing";
+}
+@font-face {
+  font-family: "highman";
+  src: url(./font/Highman.ttf);
+}
+.fHighman {
+  font-family: "highman";
+}
+@font-face {
+  font-family: "broken";
+  src: url(./font/Broken\ Home\ Regular.otf);
+}
+.fBroken {
+  font-family: "broken";
+}
+@font-face {
+  font-family: "chicken";
+  src: url(./font/CHICKEN\ Pie.otf);
+}
+.fChicken {
+  font-family: "chicken";
+}
+@font-face {
+  font-family: "redmi";
+  src: url(./font/Redmilk.otf);
+}
+.fRedmil {
+  font-family: "redmi";
+}
+@font-face {
+  font-family: "housemate";
+  src: url(./font/Housemate.ttf) format("ttf");
+}
+.fHousemate {
+  font-family: "housemate", cursive;
+}
+@font-face {
+  font-family: "miltonkey";
+  src: url(./font/Milton\ Keynes.otf);
+}
+.fMiltonKey {
+  font-family: "miltonkey";
+}
+@font-face {
+  font-family: "dopestyle";
+  src: url(./font/Dopestyle.ttf);
+}
+.fDopestyle {
+  font-family: "dopestyle", cursive;
+}
+
+/* FONT/TEXT COLOR */
+.fngoldchrome {
+  color: #e1bd36;
+}
+.fnredchrome {
+  color: #b71c2a;
+}
+.fnrosegoldchrome {
+  color: #d39b99;
+}
+.fnbluechrome {
+  color: #0e1f98;
+}
+.fnsilverchrome {
+  color: #d8d5d2;
+}
+.fngreenholo {
+  color: #00774f;
+}
+.fnpinktoblueholo {
+  color: #d9a9ba;
+}
+.fnpeachyellowholo {
+  color: #99b2f5;
+}
+.fnyellowholo {
+  color: #e6e03c;
+}
+.fnredtopurpleholo {
+  color: #9b3c51;
+}
+.fnneonorangeholo {
+  color: #ff5f1f;
+}
+.fnyelloworageholo {
+  color: #c77f4f;
+}
+.fngoldholo {
+  color: #e2a62d;
+}
+.fnsilversparkle {
+  color: #e3eae9;
+}
+.fngoldsparkle {
+  color: #d8ad38;
+}
+.fnredsparckle {
+  color: #c90000;
+}
+.fngreensparckle {
+  color: #246336;
+}
+.fnpurplesparkle {
+  color: #5d3a85;
+}
+.fnbluesparkle {
+  color: #0b3370;
+}
+.fncgoldenYellow {
+  color: #fcaa2f;
+}
+.fncsignalYellow {
+  color: #ecae28;
+}
+.fncyellow {
+  color: #fdca35;
+}
+.fnclightyellow {
+  color: #ffdc17;
+}
+.fncbrimstoneyellow {
+  color: #f5e54b;
+}
+.fncpurplered {
+  color: #5c0a0f;
+}
+.fncburgundy {
+  color: #730314;
+}
+.fncdarkred {
+  color: #973035;
+}
+.fncred {
+  color: #c02b3b;
+}
+.fnclightred {
+  color: #d4302e;
+}
+.fncorangered {
+  color: #dd4736;
+}
+.fncorange {
+  color: #e9671f;
+}
+.fnclightorange {
+  color: #f19018;
+}
+.fncpastelorange {
+  color: #ff6e29;
+}
+.fnccoral {
+  color: #f3ab9d;
+}
+.fncpurple {
+  color: #422c6f;
+}
+.fncviolet {
+  color: #5e2966;
+}
+.fnclavendar {
+  color: #775f9e;
+}
+.fnclilac {
+  color: #bd91bb;
+}
+.fncpink {
+  color: #c3206e;
+}
+.fncsoftpink {
+  color: #eda0c6;
+}
+.fncdeepseablue {
+  color: #121d39;
+}
+.fncsteelblue {
+  color: #0c1743;
+}
+.fncdarkblue {
+  color: #383d62;
+}
+.fnccobaltblue {
+  color: #023080;
+}
+.fnckingblue {
+  color: #373e82;
+}
+.fncbrilliantblue {
+  color: #2f48a8;
+}
+.fncblue {
+  color: #053b77;
+}
+.fnctrafficblue {
+  color: #09438d;
+}
+.fncgentianblue {
+  color: #0b558f;
+}
+.fncgentian {
+  color: #0a5daa;
+}
+.fncazureblue {
+  color: #0c5d98;
+}
+.fncskyblue {
+  color: #1375b8;
+}
+.fnclightblue {
+  color: #1690c9;
+}
+.fnciceblue {
+  color: #48a5d1;
+}
+.fncturquoiseblue {
+  color: #148694;
+}
+.fncturquoise {
+  color: #1aa0a0;
+}
+.fncmint {
+  color: #73cdba;
+}
+.fncdarkgreen {
+  color: #1c4a3a;
+}
+.fncforestgreen {
+  color: #0a4f3a;
+}
+.fncgreen {
+  color: #0a4f3a;
+}
+.fncgrassgreen {
+  color: #0e7847;
+}
+.fnclightgreen {
+  color: #128e52;
+}
+.fncyellowgreen {
+  color: #3e9e39;
+}
+.fnclimegreen {
+  color: #74aa4b;
+}
+.fncbrown {
+  color: #6b411f;
+}
+.fncnutbrown {
+  color: #b66543;
+}
+.fnclightbrown {
+  color: #af9167;
+}
+.fncbeige {
+  color: #d1c5ac;
+}
+.fnccream {
+  color: #edd29b;
+}
+.fncwhite {
+  color: #ffffff;
+}
+.fnc#fcaa2f {
+  color: #000000;
+}
+.fncdarkgrey {
+  color: #505050;
+}
+.fncgrey {
+  color: #7d8186;
+}
+.fnctelegrey {
+  color: #9b9b9b;
+}
+.fncmiddlegrey {
+  color: #909495;
+}
+.fnclightgrey {
+  color: #c0c5c6;
+}
+.fncimitationgold {
+  color: #cf9838;
+}
+.fncsilvermetallic {
+  color: #737373;
+}
+.fncgoldmetallic {
+  color: #e9b870;
+}
+.fnccoppermetallic {
+  color: #9d552a;
+}
+
+/* SHADOW COLOR */
+.shsilverchrome {
+  text-shadow: 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2,
+    4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2,
+    0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2, -4px 0px 4px #d8d5d2,
+    0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2, 4px 0px 4px #d8d5d2,
+    -4px 0px 4px #d8d5d2, 0px 4px 4px #d8d5d2, 0px -4px 4px #d8d5d2;
+}
+.shgreenholo {
+  text-shadow: 4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f,
+    4px 0px 4px #00774f, -4px 0px 4px #00774f, 0px 4px 4px #00774f,
+    0px -4px 4px #00774f, 4px 0px 4px #00774f, -4px 0px 4px #00774f,
+    0px 4px 4px #00774f, 0px -4px 4px #00774f, 4px 0px 4px #00774f,
+    -4px 0px 4px #00774f, 0px 4px 4px #00774f, 0px -4px 4px #00774f;
+}
+.shpinktoblueholo {
+  text-shadow: 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba,
+    4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba,
+    0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba, -4px 0px 4px #d9a9ba,
+    0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba, 4px 0px 4px #d9a9ba,
+    -4px 0px 4px #d9a9ba, 0px 4px 4px #d9a9ba, 0px -4px 4px #d9a9ba;
+}
+.shpinktopurpleholo {
+  text-shadow: 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5,
+    4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5,
+    0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5, -4px 0px 4px #99b2f5,
+    0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5, 4px 0px 4px #99b2f5,
+    -4px 0px 4px #99b2f5, 0px 4px 4px #99b2f5, 0px -4px 4px #99b2f5;
+}
+.shpeachyellowholo {
+  text-shadow: 4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29,
+    4px 0px 4px #df8e29, -4px 0px 4px #df8e29, 0px 4px 4px #df8e29,
+    0px -4px 4px #df8e29, 4px 0px 4px #df8e29, -4px 0px 4px #df8e29,
+    0px 4px 4px #df8e29, 0px -4px 4px #df8e29, 4px 0px 4px #df8e29,
+    -4px 0px 4px #df8e29, 0px 4px 4px #df8e29, 0px -4px 4px #df8e29;
+}
+.shyellowholo {
+  text-shadow: 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c,
+    4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c,
+    0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c, -4px 0px 4px #e6e03c,
+    0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c, 4px 0px 4px #e6e03c,
+    -4px 0px 4px #e6e03c, 0px 4px 4px #e6e03c, 0px -4px 4px #e6e03c;
+}
+.shredtopurpleholo {
+  text-shadow: 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51,
+    4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51,
+    0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51, -4px 0px 4px #9b3c51,
+    0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51, 4px 0px 4px #9b3c51,
+    -4px 0px 4px #9b3c51, 0px 4px 4px #9b3c51, 0px -4px 4px #9b3c51;
+}
+.shbluesparkle {
+  text-shadow: 4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370,
+    4px 0px 4px #0b3370, -4px 0px 4px #0b3370, 0px 4px 4px #0b3370,
+    0px -4px 4px #0b3370, 4px 0px 4px #0b3370, -4px 0px 4px #0b3370,
+    0px 4px 4px #0b3370, 0px -4px 4px #0b3370, 4px 0px 4px #0b3370,
+    -4px 0px 4px #0b3370, 0px 4px 4px #0b3370, 0px -4px 4px #0b3370;
+}
+.shpurplesparkle {
+  text-shadow: 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85,
+    4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85,
+    0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85, -4px 0px 4px #5d3a85,
+    0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85, 4px 0px 4px #5d3a85,
+    -4px 0px 4px #5d3a85, 0px 4px 4px #5d3a85, 0px -4px 4px #5d3a85;
+}
+.shgreensparckle {
+  text-shadow: 4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336,
+    4px 0px 4px #246336, -4px 0px 4px #246336, 0px 4px 4px #246336,
+    0px -4px 4px #246336, 4px 0px 4px #246336, -4px 0px 4px #246336,
+    0px 4px 4px #246336, 0px -4px 4px #246336, 4px 0px 4px #246336,
+    -4px 0px 4px #246336, 0px 4px 4px #246336, 0px -4px 4px #246336;
+}
+.shredsparckle {
+  text-shadow: 4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000,
+    4px 0px 4px #c90000, -4px 0px 4px #c90000, 0px 4px 4px #c90000,
+    0px -4px 4px #c90000, 4px 0px 4px #c90000, -4px 0px 4px #c90000,
+    0px 4px 4px #c90000, 0px -4px 4px #c90000, 4px 0px 4px #c90000,
+    -4px 0px 4px #c90000, 0px 4px 4px #c90000, 0px -4px 4px #c90000;
+}
+.shgoldsparkle {
+  text-shadow: 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38,
+    4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38,
+    0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38, -4px 0px 4px #d8ad38,
+    0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38, 4px 0px 4px #d8ad38,
+    -4px 0px 4px #d8ad38, 0px 4px 4px #d8ad38, 0px -4px 4px #d8ad38;
+}
+.shsilversparkle {
+  text-shadow: 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9,
+    4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9,
+    0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9, -4px 0px 4px #e3eae9,
+    0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9, 4px 0px 4px #e3eae9,
+    -4px 0px 4px #e3eae9, 0px 4px 4px #e3eae9, 0px -4px 4px #e3eae9;
+}
+.shgoldholo {
+  text-shadow: 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d,
+    4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d,
+    0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d, -4px 0px 4px #e2a62d,
+    0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d, 4px 0px 4px #e2a62d,
+    -4px 0px 4px #e2a62d, 0px 4px 4px #e2a62d, 0px -4px 4px #e2a62d;
+}
+.shyelloworageholo {
+  text-shadow: 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f,
+    4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f,
+    0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f, -4px 0px 4px #c77f4f,
+    0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f, 4px 0px 4px #c77f4f,
+    -4px 0px 4px #c77f4f, 0px 4px 4px #c77f4f, 0px -4px 4px #c77f4f;
+}
+.shneonorangeholo {
+  text-shadow: 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f,
+    4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f,
+    0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f, -4px 0px 4px #ff5f1f,
+    0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f, 4px 0px 4px #ff5f1f,
+    -4px 0px 4px #ff5f1f, 0px 4px 4px #ff5f1f, 0px -4px 4px #ff5f1f;
+}
+.shbluechrome {
+  text-shadow: 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98,
+    4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98,
+    0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98, -4px 0px 4px #0e1f98,
+    0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98, 4px 0px 4px #0e1f98,
+    -4px 0px 4px #0e1f98, 0px 4px 4px #0e1f98, 0px -4px 4px #0e1f98;
+}
+.shrosegoldchrome {
+  text-shadow: 4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99,
+    4px 0px 4px #d39b99, -4px 0px 4px #d39b99, 0px 4px 4px #d39b99,
+    0px -4px 4px #d39b99, 4px 0px 4px #d39b99, -4px 0px 4px #d39b99,
+    0px 4px 4px #d39b99, 0px -4px 4px #d39b99, 4px 0px 4px #d39b99,
+    -4px 0px 4px #d39b99, 0px 4px 4px #d39b99, 0px -4px 4px #d39b99;
+}
+.shredchrome {
+  text-shadow: 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a,
+    4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a,
+    0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a, -4px 0px 4px #b71c2a,
+    0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a, 4px 0px 4px #b71c2a,
+    -4px 0px 4px #b71c2a, 0px 4px 4px #b71c2a, 0px -4px 4px #b71c2a;
+}
+.shgoldchrome {
+  text-shadow: 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36,
+    4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36,
+    0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36, -4px 0px 4px #e1bd36,
+    0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36, 4px 0px 4px #e1bd36,
+    -4px 0px 4px #e1bd36, 0px 4px 4px #e1bd36, 0px -4px 4px #e1bd36;
+}
+
+.shdgoldenYellow {
+  text-shadow: 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f,
+    4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f,
+    0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f, -4px 0px 4px #fcaa2f,
+    0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f, 4px 0px 4px #fcaa2f,
+    -4px 0px 4px #fcaa2f, 0px 4px 4px #fcaa2f, 0px -4px 4px #fcaa2f;
+}
+.shdsignalYellow {
+  text-shadow: 4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28,
+    4px 0px 4px #ecae28, -4px 0px 4px #ecae28, 0px 4px 4px #ecae28,
+    0px -4px 4px #ecae28, 4px 0px 4px #ecae28, -4px 0px 4px #ecae28,
+    0px 4px 4px #ecae28, 0px -4px 4px #ecae28, 4px 0px 4px #ecae28,
+    -4px 0px 4px #ecae28, 0px 4px 4px #ecae28, 0px -4px 4px #ecae28;
+}
+.shdyellow {
+  text-shadow: 4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35,
+    4px 0px 4px #fdca35, -4px 0px 4px #fdca35, 0px 4px 4px #fdca35,
+    0px -4px 4px #fdca35, 4px 0px 4px #fdca35, -4px 0px 4px #fdca35,
+    0px 4px 4px #fdca35, 0px -4px 4px #fdca35, 4px 0px 4px #fdca35,
+    -4px 0px 4px #fdca35, 0px 4px 4px #fdca35, 0px -4px 4px #fdca35;
+}
+.shdlightyellow {
+  text-shadow: 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17,
+    4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17,
+    0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17, -4px 0px 4px #ffdc17,
+    0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17, 4px 0px 4px #ffdc17,
+    -4px 0px 4px #ffdc17, 0px 4px 4px #ffdc17, 0px -4px 4px #ffdc17;
+}
+.shdbrimstoneyellow {
+  text-shadow: 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b,
+    4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b,
+    0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b, -4px 0px 4px #f5e54b,
+    0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b, 4px 0px 4px #f5e54b,
+    -4px 0px 4px #f5e54b, 0px 4px 4px #f5e54b, 0px -4px 4px #f5e54b;
+}
+
+.shdpurplered {
+  text-shadow: 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f,
+    4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f,
+    0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f, -4px 0px 4px #5c0a0f,
+    0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f, 4px 0px 4px #5c0a0f,
+    -4px 0px 4px #5c0a0f, 0px 4px 4px #5c0a0f, 0px -4px 4px #5c0a0f;
+}
+.shdburgundy {
+  text-shadow: 4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314,
+    4px 0px 4px #730314, -4px 0px 4px #730314, 0px 4px 4px #730314,
+    0px -4px 4px #730314, 4px 0px 4px #730314, -4px 0px 4px #730314,
+    0px 4px 4px #730314, 0px -4px 4px #730314, 4px 0px 4px #730314,
+    -4px 0px 4px #730314, 0px 4px 4px #730314, 0px -4px 4px #730314;
+}
+.shddarkred {
+  text-shadow: 4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035,
+    4px 0px 4px #973035, -4px 0px 4px #973035, 0px 4px 4px #973035,
+    0px -4px 4px #973035, 4px 0px 4px #973035, -4px 0px 4px #973035,
+    0px 4px 4px #973035, 0px -4px 4px #973035, 4px 0px 4px #973035,
+    -4px 0px 4px #973035, 0px 4px 4px #973035, 0px -4px 4px #973035;
+}
+.shdred {
+  text-shadow: 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b,
+    4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b,
+    0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b, -4px 0px 4px #c02b3b,
+    0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b, 4px 0px 4px #c02b3b,
+    -4px 0px 4px #c02b3b, 0px 4px 4px #c02b3b, 0px -4px 4px #c02b3b;
+}
+.shdlightred {
+  text-shadow: 4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e,
+    4px 0px 4px #d4302e, -4px 0px 4px #d4302e, 0px 4px 4px #d4302e,
+    0px -4px 4px #d4302e, 4px 0px 4px #d4302e, -4px 0px 4px #d4302e,
+    0px 4px 4px #d4302e, 0px -4px 4px #d4302e, 4px 0px 4px #d4302e,
+    -4px 0px 4px #d4302e, 0px 4px 4px #d4302e, 0px -4px 4px #d4302e;
+}
+.shdorangered {
+  text-shadow: 4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736,
+    4px 0px 4px #dd4736, -4px 0px 4px #dd4736, 0px 4px 4px #dd4736,
+    0px -4px 4px #dd4736, 4px 0px 4px #dd4736, -4px 0px 4px #dd4736,
+    0px 4px 4px #dd4736, 0px -4px 4px #dd4736, 4px 0px 4px #dd4736,
+    -4px 0px 4px #dd4736, 0px 4px 4px #dd4736, 0px -4px 4px #dd4736;
+}
+.shdorange {
+  text-shadow: 4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f,
+    4px 0px 4px #e9671f, -4px 0px 4px #e9671f, 0px 4px 4px #e9671f,
+    0px -4px 4px #e9671f, 4px 0px 4px #e9671f, -4px 0px 4px #e9671f,
+    0px 4px 4px #e9671f, 0px -4px 4px #e9671f, 4px 0px 4px #e9671f,
+    -4px 0px 4px #e9671f, 0px 4px 4px #e9671f, 0px -4px 4px #e9671f;
+}
+.shdlightorange {
+  text-shadow: 4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018,
+    4px 0px 4px #f19018, -4px 0px 4px #f19018, 0px 4px 4px #f19018,
+    0px -4px 4px #f19018, 4px 0px 4px #f19018, -4px 0px 4px #f19018,
+    0px 4px 4px #f19018, 0px -4px 4px #f19018, 4px 0px 4px #f19018,
+    -4px 0px 4px #f19018, 0px 4px 4px #f19018, 0px -4px 4px #f19018;
+}
+.shdpastelorange {
+  text-shadow: 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29,
+    -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29,
+    4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29, 0px 4px 4px #ff6e29,
+    0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29, -4px 0px 4px #ff6e29,
+    0px 4px 4px #ff6e29, 0px -4px 4px #ff6e29, 4px 0px 4px #ff6e29;
+}
+.shdcoral {
+  text-shadow: 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d,
+    -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d,
+    4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d, 0px 4px 4px #f3ab9d,
+    0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d, -4px 0px 4px #f3ab9d,
+    0px 4px 4px #f3ab9d, 0px -4px 4px #f3ab9d, 4px 0px 4px #f3ab9d;
+}
+.shdpurple {
+  text-shadow: 4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f,
+    -4px 0px 4px #422c6f, 0px 4px 4px #422c6f, 0px -4px 4px #422c6f,
+    4px 0px 4px #422c6f, -4px 0px 4px #422c6f, 0px 4px 4px #422c6f,
+    0px -4px 4px #422c6f, 4px 0px 4px #422c6f, -4px 0px 4px #422c6f,
+    0px 4px 4px #422c6f, 0px -4px 4px #422c6f, 4px 0px 4px #422c6f;
+}
+.shdviolet {
+  text-shadow: 4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966,
+    -4px 0px 4px #5e2966, 0px 4px 4px #5e2966, 0px -4px 4px #5e2966,
+    4px 0px 4px #5e2966, -4px 0px 4px #5e2966, 0px 4px 4px #5e2966,
+    0px -4px 4px #5e2966, 4px 0px 4px #5e2966, -4px 0px 4px #5e2966,
+    0px 4px 4px #5e2966, 0px -4px 4px #5e2966, 4px 0px 4px #5e2966;
+}
+.shdlavendar {
+  text-shadow: 4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e,
+    -4px 0px 4px #775f9e, 0px 4px 4px #775f9e, 0px -4px 4px #775f9e,
+    4px 0px 4px #775f9e, -4px 0px 4px #775f9e, 0px 4px 4px #775f9e,
+    0px -4px 4px #775f9e, 4px 0px 4px #775f9e, -4px 0px 4px #775f9e,
+    0px 4px 4px #775f9e, 0px -4px 4px #775f9e, 4px 0px 4px #775f9e;
+}
+.shdlilac {
+  text-shadow: 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb,
+    -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb,
+    4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb, 0px 4px 4px #bd91bb,
+    0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb, -4px 0px 4px #bd91bb,
+    0px 4px 4px #bd91bb, 0px -4px 4px #bd91bb, 4px 0px 4px #bd91bb;
+}
+.shdpink {
+  color: #c3206e;
+  text-shadow: 4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e,
+    -4px 0px 4px #c3206e, 0px 4px 4px #c3206e, 0px -4px 4px #c3206e,
+    4px 0px 4px #c3206e, -4px 0px 4px #c3206e, 0px 4px 4px #c3206e,
+    0px -4px 4px #c3206e, 4px 0px 4px #c3206e, -4px 0px 4px #c3206e,
+    0px 4px 4px #c3206e, 0px -4px 4px #c3206e, 4px 0px 4px #c3206e;
+}
+.shdsoftpink {
+  text-shadow: 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6,
+    -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6,
+    4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6, 0px 4px 4px #eda0c6,
+    0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6, -4px 0px 4px #eda0c6,
+    0px 4px 4px #eda0c6, 0px -4px 4px #eda0c6, 4px 0px 4px #eda0c6;
+}
+.shddeepseablue {
+  text-shadow: 4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39,
+    -4px 0px 4px #121d39, 0px 4px 4px #121d39, 0px -4px 4px #121d39,
+    4px 0px 4px #121d39, -4px 0px 4px #121d39, 0px 4px 4px #121d39,
+    0px -4px 4px #121d39, 4px 0px 4px #121d39, -4px 0px 4px #121d39,
+    0px 4px 4px #121d39, 0px -4px 4px #121d39, 4px 0px 4px #121d39;
+}
+.shdsteelblue {
+  text-shadow: 4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743,
+    -4px 0px 4px #0c1743, 0px 4px 4px #0c1743, 0px -4px 4px #0c1743,
+    4px 0px 4px #0c1743, -4px 0px 4px #0c1743, 0px 4px 4px #0c1743,
+    0px -4px 4px #0c1743, 4px 0px 4px #0c1743, -4px 0px 4px #0c1743,
+    0px 4px 4px #0c1743, 0px -4px 4px #0c1743, 4px 0px 4px #0c1743;
+}
+.shddarkblue {
+  text-shadow: 4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62,
+    -4px 0px 4px #383d62, 0px 4px 4px #383d62, 0px -4px 4px #383d62,
+    4px 0px 4px #383d62, -4px 0px 4px #383d62, 0px 4px 4px #383d62,
+    0px -4px 4px #383d62, 4px 0px 4px #383d62, -4px 0px 4px #383d62,
+    0px 4px 4px #383d62, 0px -4px 4px #383d62, 4px 0px 4px #383d62;
+}
+.shdcobaltblue {
+  text-shadow: 4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080,
+    -4px 0px 4px #023080, 0px 4px 4px #023080, 0px -4px 4px #023080,
+    4px 0px 4px #023080, -4px 0px 4px #023080, 0px 4px 4px #023080,
+    0px -4px 4px #023080, 4px 0px 4px #023080, -4px 0px 4px #023080,
+    0px 4px 4px #023080, 0px -4px 4px #023080, 4px 0px 4px #023080;
+}
+.shdkingblue {
+  text-shadow: 4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82,
+    -4px 0px 4px #373e82, 0px 4px 4px #373e82, 0px -4px 4px #373e82,
+    4px 0px 4px #373e82, -4px 0px 4px #373e82, 0px 4px 4px #373e82,
+    0px -4px 4px #373e82, 4px 0px 4px #373e82, -4px 0px 4px #373e82,
+    0px 4px 4px #373e82, 0px -4px 4px #373e82, 4px 0px 4px #373e82;
+}
+.shdbrilliantblue {
+  text-shadow: 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8,
+    -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8,
+    4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8, 0px 4px 4px #2f48a8,
+    0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8, -4px 0px 4px #2f48a8,
+    0px 4px 4px #2f48a8, 0px -4px 4px #2f48a8, 4px 0px 4px #2f48a8;
+}
+.shdblue {
+  text-shadow: 4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77,
+    -4px 0px 4px #053b77, 0px 4px 4px #053b77, 0px -4px 4px #053b77,
+    4px 0px 4px #053b77, -4px 0px 4px #053b77, 0px 4px 4px #053b77,
+    0px -4px 4px #053b77, 4px 0px 4px #053b77, -4px 0px 4px #053b77,
+    0px 4px 4px #053b77, 0px -4px 4px #053b77, 4px 0px 4px #053b77;
+}
+.shdtrafficblue {
+  text-shadow: 4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d,
+    -4px 0px 4px #09438d, 0px 4px 4px #09438d, 0px -4px 4px #09438d,
+    4px 0px 4px #09438d, -4px 0px 4px #09438d, 0px 4px 4px #09438d,
+    0px -4px 4px #09438d, 4px 0px 4px #09438d, -4px 0px 4px #09438d,
+    0px 4px 4px #09438d, 0px -4px 4px #09438d, 4px 0px 4px #09438d;
+}
+.shdgentianblue {
+  text-shadow: 4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f,
+    -4px 0px 4px #0b558f, 0px 4px 4px #0b558f, 0px -4px 4px #0b558f,
+    4px 0px 4px #0b558f, -4px 0px 4px #0b558f, 0px 4px 4px #0b558f,
+    0px -4px 4px #0b558f, 4px 0px 4px #0b558f, -4px 0px 4px #0b558f,
+    0px 4px 4px #0b558f, 0px -4px 4px #0b558f, 4px 0px 4px #0b558f;
+}
+.shdgentian {
+  text-shadow: 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa,
+    -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa,
+    4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa, 0px 4px 4px #0a5daa,
+    0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa, -4px 0px 4px #0a5daa,
+    0px 4px 4px #0a5daa, 0px -4px 4px #0a5daa, 4px 0px 4px #0a5daa;
+}
+.shdazureblue {
+  text-shadow: 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98,
+    -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98,
+    4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98, 0px 4px 4px #0c5d98,
+    0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98, -4px 0px 4px #0c5d98,
+    0px 4px 4px #0c5d98, 0px -4px 4px #0c5d98, 4px 0px 4px #0c5d98;
+}
+.shdskyblue {
+  text-shadow: 4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8,
+    -4px 0px 4px #1375b8, 0px 4px 4px #1375b8, 0px -4px 4px #1375b8,
+    4px 0px 4px #1375b8, -4px 0px 4px #1375b8, 0px 4px 4px #1375b8,
+    0px -4px 4px #1375b8, 4px 0px 4px #1375b8, -4px 0px 4px #1375b8,
+    0px 4px 4px #1375b8, 0px -4px 4px #1375b8, 4px 0px 4px #1375b8;
+}
+.shdlightblue {
+  text-shadow: 4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9,
+    -4px 0px 4px #1690c9, 0px 4px 4px #1690c9, 0px -4px 4px #1690c9,
+    4px 0px 4px #1690c9, -4px 0px 4px #1690c9, 0px 4px 4px #1690c9,
+    0px -4px 4px #1690c9, 4px 0px 4px #1690c9, -4px 0px 4px #1690c9,
+    0px 4px 4px #1690c9, 0px -4px 4px #1690c9, 4px 0px 4px #1690c9;
+}
+.shdiceblue {
+  text-shadow: 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1,
+    -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1,
+    4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1, 0px 4px 4px #48a5d1,
+    0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1, -4px 0px 4px #48a5d1,
+    0px 4px 4px #48a5d1, 0px -4px 4px #48a5d1, 4px 0px 4px #48a5d1;
+}
+.shdturquoiseblue {
+  text-shadow: 4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694,
+    -4px 0px 4px #148694, 0px 4px 4px #148694, 0px -4px 4px #148694,
+    4px 0px 4px #148694, -4px 0px 4px #148694, 0px 4px 4px #148694,
+    0px -4px 4px #148694, 4px 0px 4px #148694, -4px 0px 4px #148694,
+    0px 4px 4px #148694, 0px -4px 4px #148694, 4px 0px 4px #148694;
+}
+.shdturquoise {
+  text-shadow: 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0,
+    -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0,
+    4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0, 0px 4px 4px #1aa0a0,
+    0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0, -4px 0px 4px #1aa0a0,
+    0px 4px 4px #1aa0a0, 0px -4px 4px #1aa0a0, 4px 0px 4px #1aa0a0;
+}
+.shdmint {
+  text-shadow: 4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba,
+    -4px 0px 4px #73cdba, 0px 4px 4px #73cdba, 0px -4px 4px #73cdba,
+    4px 0px 4px #73cdba, -4px 0px 4px #73cdba, 0px 4px 4px #73cdba,
+    0px -4px 4px #73cdba, 4px 0px 4px #73cdba, -4px 0px 4px #73cdba,
+    0px 4px 4px #73cdba, 0px -4px 4px #73cdba, 4px 0px 4px #73cdba;
+}
+.shddarkgreen {
+  text-shadow: 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a,
+    -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a,
+    4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a, 0px 4px 4px #1c4a3a,
+    0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a, -4px 0px 4px #1c4a3a,
+    0px 4px 4px #1c4a3a, 0px -4px 4px #1c4a3a, 4px 0px 4px #1c4a3a;
+}
+.shdforestgreen {
+  text-shadow: 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a;
+}
+.shdgreen {
+  text-shadow: 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a,
+    -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a,
+    4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a, 0px 4px 4px #0a4f3a,
+    0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a, -4px 0px 4px #0a4f3a,
+    0px 4px 4px #0a4f3a, 0px -4px 4px #0a4f3a, 4px 0px 4px #0a4f3a;
+}
+.shdgrassgreen {
+  text-shadow: 4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847,
+    -4px 0px 4px #0e7847, 0px 4px 4px #0e7847, 0px -4px 4px #0e7847,
+    4px 0px 4px #0e7847, -4px 0px 4px #0e7847, 0px 4px 4px #0e7847,
+    0px -4px 4px #0e7847, 4px 0px 4px #0e7847, -4px 0px 4px #0e7847,
+    0px 4px 4px #0e7847, 0px -4px 4px #0e7847, 4px 0px 4px #0e7847;
+}
+.shdlightgreen {
+  text-shadow: 4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52,
+    -4px 0px 4px #128e52, 0px 4px 4px #128e52, 0px -4px 4px #128e52,
+    4px 0px 4px #128e52, -4px 0px 4px #128e52, 0px 4px 4px #128e52,
+    0px -4px 4px #128e52, 4px 0px 4px #128e52, -4px 0px 4px #128e52,
+    0px 4px 4px #128e52, 0px -4px 4px #128e52, 4px 0px 4px #128e52;
+}
+.shdyellowgreen {
+  text-shadow: 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39,
+    -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39,
+    4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39, 0px 4px 4px #3e9e39,
+    0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39, -4px 0px 4px #3e9e39,
+    0px 4px 4px #3e9e39, 0px -4px 4px #3e9e39, 4px 0px 4px #3e9e39;
+}
+.shdlimegreen {
+  text-shadow: 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b,
+    -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b,
+    4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b, 0px 4px 4px #74aa4b,
+    0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b, -4px 0px 4px #74aa4b,
+    0px 4px 4px #74aa4b, 0px -4px 4px #74aa4b, 4px 0px 4px #74aa4b;
+}
+.shdbrown {
+  text-shadow: 4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f,
+    -4px 0px 4px #6b411f, 0px 4px 4px #6b411f, 0px -4px 4px #6b411f,
+    4px 0px 4px #6b411f, -4px 0px 4px #6b411f, 0px 4px 4px #6b411f,
+    0px -4px 4px #6b411f, 4px 0px 4px #6b411f, -4px 0px 4px #6b411f,
+    0px 4px 4px #6b411f, 0px -4px 4px #6b411f, 4px 0px 4px #6b411f;
+}
+.shdnutbrown {
+  text-shadow: 4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543,
+    -4px 0px 4px #b66543, 0px 4px 4px #b66543, 0px -4px 4px #b66543,
+    4px 0px 4px #b66543, -4px 0px 4px #b66543, 0px 4px 4px #b66543,
+    0px -4px 4px #b66543, 4px 0px 4px #b66543, -4px 0px 4px #b66543,
+    0px 4px 4px #b66543, 0px -4px 4px #b66543, 4px 0px 4px #b66543;
+}
+.shdlightbrown {
+  text-shadow: 4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167,
+    -4px 0px 4px #af9167, 0px 4px 4px #af9167, 0px -4px 4px #af9167,
+    4px 0px 4px #af9167, -4px 0px 4px #af9167, 0px 4px 4px #af9167,
+    0px -4px 4px #af9167, 4px 0px 4px #af9167, -4px 0px 4px #af9167,
+    0px 4px 4px #af9167, 0px -4px 4px #af9167, 4px 0px 4px #af9167;
+}
+.shdbeige {
+  text-shadow: 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac,
+    -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac,
+    4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac, 0px 4px 4px #d1c5ac,
+    0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac, -4px 0px 4px #d1c5ac,
+    0px 4px 4px #d1c5ac, 0px -4px 4px #d1c5ac, 4px 0px 4px #d1c5ac;
+}
+.shdcream {
+  text-shadow: 4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b,
+    -4px 0px 4px #edd29b, 0px 4px 4px #edd29b, 0px -4px 4px #edd29b,
+    4px 0px 4px #edd29b, -4px 0px 4px #edd29b, 0px 4px 4px #edd29b,
+    0px -4px 4px #edd29b, 4px 0px 4px #edd29b, -4px 0px 4px #edd29b,
+    0px 4px 4px #edd29b, 0px -4px 4px #edd29b, 4px 0px 4px #edd29b;
+}
+.shdwhite {
+  text-shadow: 4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff,
+    -4px 0px 4px #ffffff, 0px 4px 4px #ffffff, 0px -4px 4px #ffffff,
+    4px 0px 4px #ffffff, -4px 0px 4px #ffffff, 0px 4px 4px #ffffff,
+    0px -4px 4px #ffffff, 4px 0px 4px #ffffff, -4px 0px 4px #ffffff,
+    0px 4px 4px #ffffff, 0px -4px 4px #ffffff, 4px 0px 4px #ffffff;
+}
+.shdblack {
+  text-shadow: 4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000,
+    -4px 0px 4px #000000, 0px 4px 4px #000000, 0px -4px 4px #000000,
+    4px 0px 4px #000000, -4px 0px 4px #000000, 0px 4px 4px #000000,
+    0px -4px 4px #000000, 4px 0px 4px #000000, -4px 0px 4px #000000,
+    0px 4px 4px #000000, 0px -4px 4px #000000, 4px 0px 4px #000000;
+}
+.shddarkgrey {
+  text-shadow: 4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050,
+    -4px 0px 4px #505050, 0px 4px 4px #505050, 0px -4px 4px #505050,
+    4px 0px 4px #505050, -4px 0px 4px #505050, 0px 4px 4px #505050,
+    0px -4px 4px #505050, 4px 0px 4px #505050, -4px 0px 4px #505050,
+    0px 4px 4px #505050, 0px -4px 4px #505050, 4px 0px 4px #505050;
+}
+.shdgrey {
+  text-shadow: 4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186,
+    -4px 0px 4px #7d8186, 0px 4px 4px #7d8186, 0px -4px 4px #7d8186,
+    4px 0px 4px #7d8186, -4px 0px 4px #7d8186, 0px 4px 4px #7d8186,
+    0px -4px 4px #7d8186, 4px 0px 4px #7d8186, -4px 0px 4px #7d8186,
+    0px 4px 4px #7d8186, 0px -4px 4px #7d8186, 4px 0px 4px #7d8186;
+}
+.shdtelegrey {
+  text-shadow: 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b,
+    -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b,
+    4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b, 0px 4px 4px #9b9b9b,
+    0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b, -4px 0px 4px #9b9b9b,
+    0px 4px 4px #9b9b9b, 0px -4px 4px #9b9b9b, 4px 0px 4px #9b9b9b;
+}
+.shdmiddlegrey {
+  text-shadow: 4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495,
+    -4px 0px 4px #909495, 0px 4px 4px #909495, 0px -4px 4px #909495,
+    4px 0px 4px #909495, -4px 0px 4px #909495, 0px 4px 4px #909495,
+    0px -4px 4px #909495, 4px 0px 4px #909495, -4px 0px 4px #909495,
+    0px 4px 4px #909495, 0px -4px 4px #909495, 4px 0px 4px #909495;
+}
+.shdlightgrey {
+  text-shadow: 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6,
+    -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6,
+    4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6, 0px 4px 4px #c0c5c6,
+    0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6, -4px 0px 4px #c0c5c6,
+    0px 4px 4px #c0c5c6, 0px -4px 4px #c0c5c6, 4px 0px 4px #c0c5c6;
+}
+.shdimitationgold {
+  text-shadow: 4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838,
+    -4px 0px 4px #cf9838, 0px 4px 4px #cf9838, 0px -4px 4px #cf9838,
+    4px 0px 4px #cf9838, -4px 0px 4px #cf9838, 0px 4px 4px #cf9838,
+    0px -4px 4px #cf9838, 4px 0px 4px #cf9838, -4px 0px 4px #cf9838,
+    0px 4px 4px #cf9838, 0px -4px 4px #cf9838, 4px 0px 4px #cf9838;
+}
+.shdsilvermetallic {
+  text-shadow: 4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373,
+    -4px 0px 4px #737373, 0px 4px 4px #737373, 0px -4px 4px #737373,
+    4px 0px 4px #737373, -4px 0px 4px #737373, 0px 4px 4px #737373,
+    0px -4px 4px #737373, 4px 0px 4px #737373, -4px 0px 4px #737373,
+    0px 4px 4px #737373, 0px -4px 4px #737373, 4px 0px 4px #737373;
+}
+.shdgoldmetallic {
+  text-shadow: 4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870,
+    -4px 0px 4px #e9b870, 0px 4px 4px #e9b870, 0px -4px 4px #e9b870,
+    4px 0px 4px #e9b870, -4px 0px 4px #e9b870, 0px 4px 4px #e9b870,
+    0px -4px 4px #e9b870, 4px 0px 4px #e9b870, -4px 0px 4px #e9b870,
+    0px 4px 4px #e9b870, 0px -4px 4px #e9b870, 4px 0px 4px #e9b870;
+}
+.shdcoppermetallic {
+  text-shadow: 4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a,
+    -4px 0px 4px #9d552a, 0px 4px 4px #9d552a, 0px -4px 4px #9d552a,
+    4px 0px 4px #9d552a, -4px 0px 4px #9d552a, 0px 4px 4px #9d552a,
+    0px -4px 4px #9d552a, 4px 0px 4px #9d552a, -4px 0px 4px #9d552a,
+    0px 4px 4px #9d552a, 0px -4px 4px #9d552a, 4px 0px 4px #9d552a;
+}
+
+/* 
+
+colors:
+#fcaa2f Golden Yellow
+#ecae28 Signal Yellow#dd4736
+#fdca35 Yellow
+#ffdc17 Light Yellow
+#f5e54b Brimstone Yellow
+#5c0a0f Purple Red
+#730314 Burgundy
+#973035 Dark Red
+#c02b3b Red
+#d4302e Light Red
+#dd4736 Orange Red
+#e9671f Orange
+#f19018 Light Orange
+#ff6e29 Pastel Orange
+#f3ab9d Coral
+#422c6f Purple
+#5e2966 Violet
+#775f9e Lavendar
+#bd91bb Lilac
+#c3206e Pink
+#eda0c6 Soft Pink
+#121d39 Deep Sea Blue
+#0c1743 Steel Blue
+#383d62 Dark Blue
+#023080 Cobalt Blue
+#373e82 King Blue
+#2f48a8 Brilliant Blue
+#053b77 Blue
+#09438d Traffic Blue
+#0b558f Gentian Blue
+#0a5daa Gentian
+#0c5d98 Azure Blue
+#1375b8 Sky Blue
+#1690c9 Light Blue
+#48a5d1 Ice Blue
+#148694 Turquoise Blue
+#1aa0a0 Turquoise
+#73cdba Mint
+#1c4a3a Dark Green
+#0a4f3a Forest Green
+#0a4f3a Green
+#0e7847 Grass Green
+#128e52 Light Green
+#3e9e39 Yellow Green
+#74aa4b Lime Green
+#6b411f Brown
+#b66543 Nut Brown
+#af9167 Light Brown
+#d1c5ac Beige
+#edd29b Cream
+#ffffff White
+#000000 Black
+#505050 Dark Grey
+#7d8186 Grey
+#9b9b9b Tele Grey
+#909495 Middle Grey
+#c0c5c6 Light Grey
+#cf9838 Imitation Gold
+#737373 Silver Metallic
+#e9b870 Gold Metallic
+#9d552a Copper Metalic
+
+*/

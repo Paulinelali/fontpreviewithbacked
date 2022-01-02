@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Miltonian+Tattoo&family=Mouse+Memoirs&family=Spicy+Rice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+{% for font in font %}
+{% if font.font_url%}
+<link href="{{ font.font_url }}" rel="stylesheet"/>
+{% endif %}
+{% endfor %}    
+<link rel="stylesheet" href="{% static 'style.css' %}" />
+    <title>Font Previewer</title>
+  </head>
+  <body>
+
+    <div class="container text-center">
+      <div class="container">
+        <img src="https://cdn.shopify.com/s/files/1/0020/2525/9107/files/Final7_c37e1250-fb1c-4a61-aa69-25e6020c2948_600x.png?v=1635130508" alt="">
+      </div>
+      <h1 class="mt-5">Font Previewer</h1>
+
+      <div class="row my-5 bg-light py-2">
+        <!-- FONT SELECTION -->
+        
+        <h2 class="te">testing font</h2>
+        <hr>
+        <div class="col-sm-12">
+          {% comment %} FONT {% endcomment %}
+          <form>
+            <select id="font_selection"class="form-control">
+              <option value="2" selected="selected">Select Font</option>
+              {% for font in font %}
+                <option value="{{ font.font_value }}">
+                  {{ font.font_name }}
+                </option>
+               {% endfor %}
+            </select>
+          </form>
+        </div>
+        {% comment %} SHADOW SELECTION {% endcomment %}
+        <div class="col-sm-12">
+          <form>
+            <select id="shadow_selection" class="form-control my-3">
+              <option value="2" selected="selected">Select Shadow</option>
+              {% for shadow in shadow %}
+              <option value="{{ shadow.shadow_value }}">
+                {{ shadow.shadow_name }}
+              </option>
+             {% endfor %}
+            </select>
+          </form>
+        </div>
+        {% comment %}FONT COLOR {% endcomment %}
+        <div class="col-sm-12">
+          <form>
+            <select id="fontcolor_selection" class="form-control my-3">
+              <option value="2" selected="selected">Select Font Color</option>
+              {% for fcolor in fcolor %}
+              <option value="{{ fcolor.color_value }}">
+                {{ fcolor.color_name }}
+              </option>
+             {% endfor %}
+            </select>
+          </form>
+        </div>
+
+        <!-- TEXT FIELD -->
+        <div class="col-sm-12">
+          <div class="input-group mb-3">
+            <input
+              id="text_field"
+              type="text"
+              class="form-control"
+              placeholder="Enter text here"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+
+        <!-- RESULT FIELD -->
+        <div class="col-sm">
+          <div class="input-group mb-3">
+            <h1
+              class="form-control"
+              id="result_field"
+            ></h1>
+          </div>
+          <div class="col-sm-12 pb-5">
+            <div class="info">
+              Click on the reset button to <b>reset</b> all styles
+            </div>
+            <div class="arrow">
+              <span style="font-size: 38px">&#8595;</span>
+            </div>
+            <button type="button" onclick="restFunction()" class="btn btn-outline-primary">Reset</button>
+          </div>
+          <div class="col-sm-12">
+            <img style="width: 100%;"
+              src="https://cdn.shopify.com/s/files/1/0020/2525/9107/files/Updated_fonts_1.14.21_de5ea8f4-3ae1-4f76-9acf-b9f7a1292f63_2048x2048.png?v=1633908070"
+              alt=""
+            />
+          </div>
+          </div>
+
+          <div class="col-sm-12 py-3">
+            <img style="width: 100%;"
+              src="https://cdn.shopify.com/s/files/1/0020/2525/9107/files/Teckwrap_Vinyl_Color_Chart_2048x2048.png?v=1635353397"
+              alt=""
+            />
+          </div>
+
+          <div class="col-sm-12 my-4">
+            <img style="width: 100%;"
+              src="https://cdn.shopify.com/s/files/1/0020/2525/9107/files/Updated_fonts3_1.14.21_d7846da0-4058-4e90-aee7-1dc2c397cd0e_2048x2048.png?v=1633908426"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{% static 'scripts.js' %}"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
